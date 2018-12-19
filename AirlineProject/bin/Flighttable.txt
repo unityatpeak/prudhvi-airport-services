@@ -1,0 +1,15 @@
+//create table Flight_Details
+
+create table Flight_Details(
+Flight_Id number(10),
+Flight_Name varchar2(20),
+SeatsCount varchar2(10),
+FlightTime varchar2(10),
+FlightOrigin varchar2(20),
+FlightDestination varchar2(20)
+);
+
+
+//create sequence FlightId_Sequence
+
+create sequence FlightId_Sequence start with 100000;

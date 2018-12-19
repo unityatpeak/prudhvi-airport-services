@@ -1,0 +1,18 @@
+//create Passenger_Details table
+
+create table Passenger_Details(
+Passenger_Id number,
+PassengerName varchar2(20),
+PassengerAge varchar2(3),
+PassengerContact varchar2(10),
+Passenger_MinTime varchar2(10),
+Passenger_MaxTime varchar2(10),
+Origin varchar2(20),
+Destination varchar2(20),
+ticketId varchar2(20)
+);
+
+
+//create sequence PassengerId_Sequence
+
+create sequence PassengerId_Sequence start with 100; 
